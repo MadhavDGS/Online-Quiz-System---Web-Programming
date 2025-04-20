@@ -6,7 +6,7 @@ app.secret_key = 'your-secret-key-here'  # Change this to a secure secret key
 
 def initialize_session():
     if 'current_unit' not in session:
-        session['current_unit'] = 'UNIT-1'
+        session['current_unit'] = 'UNIT-3'
     if 'user_answers' not in session:
         session['user_answers'] = {}
     if 'current_page' not in session:
